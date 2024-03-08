@@ -2,6 +2,7 @@ import { View , Text, StyleSheet} from "react-native"
 import Date from "../components/ForMainScreen/Date";
 import Search from "../components/ForMainScreen/Search";
 import ShortInfo from "../components/ForMainScreen/ShortInfo";
+import News from "../components/ForMainScreen/News";
 
 
 

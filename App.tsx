@@ -4,6 +4,7 @@ import MainScreen from './screens/MainScreen';
 import MoreInfo from './screens/MoreInfo';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
+import News from './components/ForMainScreen/News';
 
 const Stak = createStackNavigator()
 
@@ -15,6 +16,7 @@ export default function App() {
         <Stak.Navigator>
           <Stak.Screen name='MainScreen' component={MainScreen} options={{headerShown: false, cardStyle: {backgroundColor: 'black',alignItems: 'center',justifyContent: 'center',}}}/>
           <Stak.Screen name='MoreInfo' component={MoreInfo} options={{headerShown: false, cardStyle: {backgroundColor: '#242424'}, presentation: 'modal'}}/>
+          <Stak.Screen name='News' component={News} options={{headerShown: false, cardStyle: {backgroundColor: '#242424'}, presentation: 'modal'}}/>
         </Stak.Navigator>
       </NavigationContainer>
     </View>

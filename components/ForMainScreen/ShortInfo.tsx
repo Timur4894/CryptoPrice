@@ -3,6 +3,7 @@ import { View, TextInput, StyleSheet, Text, FlatList, Pressable } from "react-na
 import { Ionicons } from "@expo/vector-icons";
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
+import News from './News';
 
 
 function ShortInfo() {
