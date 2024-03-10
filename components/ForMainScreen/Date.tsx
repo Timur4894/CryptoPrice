@@ -2,10 +2,12 @@ import { View , Text, StyleSheet, TextInput, Pressable} from "react-native"
 import moment from 'moment'; 
 import { useNavigation } from '@react-navigation/native';
 
+
 function Date(){
     const now = moment().format("D");
     const month = moment().format("MMMM");
     console.log(month)
+
 
     const navigation: any = useNavigation()
 

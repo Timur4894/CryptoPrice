@@ -7,6 +7,7 @@ function Moredetails({ route }: { route: any }) {
 
     const { cryptoName } = route.params;
 
+
     useEffect(() => {
         const fetchCryptoDetails = async () => {
             try {

@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 
 function News() {
   const [news, setNews] = useState([]);
-  const navigation = useNavigation();
+  const navigation = useNavigation([])
 
   useEffect(() => {
     const fetchNews = async () => {
